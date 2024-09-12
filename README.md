@@ -1,13 +1,22 @@
-# Welcome to your Expo app 👋
+# Welcome to my app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an simple react native project.
+![ss](https://github.com/user-attachments/assets/f716d26d-4564-4d5d-9bb6-ce91569e7029)
+
+##Create a New Folder
+
+Start by creating a folder with any name.
+
+Open Visual Studio Code in a new window (Ctrl + Shift + N) and drag and drop your newly created folder into VS Code.
+
+Now, open the terminal inside VS Code (`Ctrl + ``) and run the following command:
 
 ## Get started
 
 1. Install dependencies
 
    ```bash
-   npm install
+   npx create-expo-app@latest
    ```
 
 2. Start the app
