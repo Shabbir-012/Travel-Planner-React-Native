@@ -3,7 +3,7 @@
 This is an simple react native project.
 ![ss](https://github.com/user-attachments/assets/f716d26d-4564-4d5d-9bb6-ce91569e7029)
 
-##Create a New Folder
+## Create a New Folder
 
 Start by creating a folder with any name.
 
@@ -11,49 +11,34 @@ Open Visual Studio Code in a new window (Ctrl + Shift + N) and drag and drop you
 
 Now, open the terminal inside VS Code (`Ctrl + ``) and run the following command:
 
-## Get started
-
-1. Install dependencies
-
    ```bash
    npx create-expo-app@latest
    ```
+Note:
+The difference between npm and npx is that npm installs tools globally, whereas npx allows you to run tools without global installation.
 
-2. Start the app
+## Choose the Folder for Installation
+
+You can install the project in the main folder using ./ or create a sub-folder with a different name if you prefer.
+## Reset the Project
+
+To reset the in-built project structure, run this command:
 
    ```bash
-    npx expo start
+   npm run reset-project.js
    ```
+After resetting, feel free to delete any unnecessary folders such as the duplicate app folder or the hooks folder.
 
-In the output, you'll find options to open the app in a
+## Start the Project
+To start your project, run:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+    npx expo start -c
+   ```
+This will start your Expo project with cache clearing (-c).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Running on Android
+Ensure your phone and laptop are connected to the same Wi-Fi network, or you can use a USB cable for connection.
+To run the project on an Android emulator, open Android Studio, and in the terminal, press a to run the Android emulator.
+Press ? in the terminal to view more options for managing the emulator.
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
