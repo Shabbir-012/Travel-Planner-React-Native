@@ -3,6 +3,10 @@
 This is an simple react native project.
 ![ss](https://github.com/user-attachments/assets/f716d26d-4564-4d5d-9bb6-ce91569e7029)
 
+## Step-by-Step Project Setup Guide
+
+Follow these simple steps to set up your React Native project:
+
 ## Create a New Folder
 
 Start by creating a folder with any name.
