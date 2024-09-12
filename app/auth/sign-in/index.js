@@ -89,7 +89,25 @@ export default function SignIn() {
 
       {/* Sign in button */}
 
-      <View
+      <TouchableOpacity
+        
+        onPress={()=>router.replace('auth/home')}
+
+        style={{
+          padding: 15,
+          backgroundColor: "#337395",
+          borderRadius: 15,
+          marginTop: 20,
+          
+        }}
+      >
+        <Text style={{
+          color: '#fff',
+          textAlign: "center"
+        }}>Sign In</Text>
+      </TouchableOpacity>
+
+      {/* <View
         style={{
           padding: 15,
           backgroundColor: "#337395",
@@ -101,7 +119,7 @@ export default function SignIn() {
           color: '#ffff',
           textAlign: "center"
         }}>Sign In</Text>
-      </View>
+      </View> */}
         
         {/*Create account button */}
 
